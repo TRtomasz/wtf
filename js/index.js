@@ -32,6 +32,7 @@ const mediaListener = {
     id: 'media',
     services: [
         {url: 'http://127.0.0.1:3689', name: 'Media Player'},
+        {url: 'http://127.0.0.1:11470', name: 'Stremio Streaming Engine'},
     ],
     detected: [],
 };
