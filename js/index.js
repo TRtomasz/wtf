@@ -60,7 +60,9 @@ window.onload = () => {
 function start(listener) {
     const loop = async () => {
         await Promise.all(listener.services.map(x => {
-            return fetch(x.url, FETCH_OPTS).then(r => {
+            return fetch(x.url, FETCH_OPTS).then(r => { 
+                console.log(x);
+                console.log(r);
                 if (listener.detected.indexOf(x.name) == -1) {
                     listener.detected.push(x.name);
                 }
