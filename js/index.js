@@ -32,7 +32,7 @@ const mediaListener = {
     id: 'media',
     services: [
         {url: 'http://127.0.0.1:3689', name: 'Media Player'},
-        {url: 'http://127.0.0.1:11470/opensubHash?videoUrl=http%3A%2F%2F127.0.0.1%3A11470%2Fyt%2FPejZ7qR3qQo%3Frequest%3D1575989213217', name: 'Stremio Streaming Engine'},
+        {url: 'http://127.0.0.1:11470/563d265913e9c189befe5fe1ac80a4c6a98f0893/3', name: 'Stremio Streaming Engine'},
     ],
     detected: [],
 };
